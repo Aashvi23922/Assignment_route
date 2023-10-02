@@ -1,0 +1,42 @@
+.main_measure_blog{
+    margin: 40px 250px;
+    height: 900px;
+    width: 100%;
+    max-width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 4px;
+    column-gap: 4px;
+    overflow: hidden;
+}
+.main_img_grid_1{
+    background: url("https://media.istockphoto.com/id/843000594/photo/magnificent-lady-in-a-perfect-make-up-is-shows-jewelry-set.jpg?s=612x612&w=0&k=20&c=aC6ILZJGdG4noGGOVs9yn1AReVErUu89vR49dxJzIhA=");
+    border: 0.5px solid rgb(96, 95, 95);
+    z-index: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_img_grid_2{
+    background: url("https://images.unsplash.com/photo-1599459182681-c938b7f65af0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    border: 0.5px solid rgb(96, 95, 95);
+    grid-row-start: 1;
+    grid-row-end: 4;
+    z-index: -1;
+    background-size: cover;
+    filter: brightness(40%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_img_grid_4{
+    background: url("https://media.istockphoto.com/id/502323102/photo/bracelet-on-a-black-background.jpg?s=612x612&w=0&k=20&c=IeIJaKA3AbmY_a4Sc16MXHIJTz8xh5dZdfwtL2APidE=");
+    border: 0.5px solid rgb(96, 95, 95);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

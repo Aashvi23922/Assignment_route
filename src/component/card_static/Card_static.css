@@ -1,0 +1,21 @@
+
+.static_main_blog {
+    background-blend-mode: multiply;
+    background: url("https://images.unsplash.com/photo-1679156271456-d6068c543ee7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1422&q=80") no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.static_main_blog:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 4, 2, 0.4)
+}

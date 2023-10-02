@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.main_desc_blog {
+    padding-bottom: 40px;
+    margin-left: 160px;
+}
+
+.main_desc_flex {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+}
+.main_desc_about {
+    width: 100%;
+    max-width: 30%;
+    text-align: left;
+    padding: 20px;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.main_desc_about h4{
+    font-size: 24px;
+    color: rgb(158, 158, 158);
+}
+.main_desc_about h2{
+    margin-left: 160px;
+    width: 20%;
+    text-align: center;
+    display: grid;
+    font-family: 'Cinzel';
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(197, 43, 43);
+    margin-top: 40px;
+}
+.main_desc_about p{
+    width: 70%;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 24px;
+    color: rgb(190, 191, 192);
+}
+.main_desc_about Button{
+    margin-top: 20px;
+    padding: 20px 60px;
+    text-align: center;
+    width: 40%;
+    margin-left: 140px;
+    font-size: 20px;
+    border: .5px solid white;
+    color: whitesmoke;
+}
+.main_desc_about Button:hover{
+    border: .5px solid rgb(209, 69, 69);
+    color: aliceblue;
+    background-color: rgb(22, 8, 8);
+}
+.main_desc_pict {
+    margin-top: 250px;
+    width: 100%;
+    max-width: 23%;
+    z-index: 1;
+    margin-right: -50px;
+}
+.main_desc_pict img {
+    height: 665px;
+    width: 490px;
+    border: 1px solid rgb(225, 224, 224);
+}
+.main_desc_pict2 {
+    width: 100%;
+    max-width: 47%;
+    margin-top: 250px;
+    position: relative;
+    z-index: -1;
+}
+
+/* 
+
+.container {
+	width: 97%;
+	max-width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	position: relative;
+	float: none;
+}
+
+*/
+.main_desc_pict2 img {
+    height: 790px;
+    width: 650px;
+}

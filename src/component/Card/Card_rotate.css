@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.card_main_blog {
+    width: 100%;
+}
+
+.card_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.card_text_blog {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Cinzel Decorative';
+}
+
+.card_text_blog h4 {
+    font-size: 15px;
+    color: gainsboro;
+}
+
+.card_text_blog h2 {
+    font-size: 60px;
+    letter-spacing: .5px;
+    color: rgb(100, 51, 51);
+    margin-bottom: 50px;
+}
+
+.card_flex ::before {
+    height: .5px;
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: -40px;
+    left: 765px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5%;
+}
+
+.card_img_blog {
+    height: 500px;
+    width: 400px;
+    font-family: 'Cinzel';
+}
+
+.card_img_blog .img_drop {
+    height: 500px;
+    overflow: clip;
+    width: 400px;
+    border: 1px solid rgb(234, 233, 232);
+
+}
+
+.card_img_blog img {
+    height: 500px;
+    width: 400px;
+}
+
+.card_img_blog .img1 {
+    transition: .9s all ease;
+}
+
+.card_img_blog .img1:hover {
+    transform: scale(1.4);
+}
+
+.card_return_style img {
+    transform: scale(0.4);
+    transition: all 2s linear;
+}
+
+.card_return_style:hover img {
+    transform: scale(1.1);
+}
+
+.img_drop_text h5 {
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 35px;
+    color: rgb(41, 40, 40);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.img_drop_text h6 {
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    width: 100%;
+    color: rgb(124, 123, 123);
+    text-align: center;
+    font-size: 25px;
+}

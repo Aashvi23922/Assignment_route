@@ -1,0 +1,67 @@
+.card_return {
+    height: 490px;
+    width: 340px;
+    border: 2px solid rgb(190, 186, 186);
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(171, 170, 170);
+    cursor: pointer;
+    border-radius: 25px 25px 25px 25px;
+}
+.card_return_style {
+    height: 360px;
+    width: 340px;
+    overflow: hidden;
+    border-radius: 25px 25px 0px 0px;
+}
+.card_return:hover {
+    border-color: rgb(144, 108, 108);
+    transition: .2s all linear;
+    border-radius: 25px 25px 25px 25px;
+}
+
+body {
+    background-color: black;
+    background-position: center;
+    background-blend-mode: multiply;
+    overflow-x: hidden;
+    padding-top: 101px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.disp_img {
+    overflow: hidden;
+}
+
+.disp_img img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 45px;
+}
+
+.card_text {
+    margin-top: -4px;
+}
+
+.card_text h4:hover {
+    color: black;
+}
+
+.card_text h4 {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 0px 15px;
+    color: rgba(38, 37, 37, 0.794);
+}
+
+.card_text h2 {
+    font-weight: 650;
+    color: rgb(10, 10, 10);
+    font-size: 24px;
+}
+
+.card_text h2:hover {
+    color: rgb(54, 54, 54);
+}
